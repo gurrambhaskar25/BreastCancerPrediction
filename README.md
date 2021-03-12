@@ -3,6 +3,8 @@ The aim of this project is to diagnose patients with breast cancer by analysing 
 classifying them into two categories, having diagnosis results as
 1. Benign (B)
 2. Malignant (M)
+
+
 LIBRARIES USED
 1. NUMPY - The fundamental package for scientific computing in python
 2. PANDAS – An open source BSD-licenced library providing high-performance, easy-to-use
