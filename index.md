@@ -1,27 +1,59 @@
-## Welcome to GitHub Pages
+## Breast Cancer Prediction
 
-You can use the [editor on GitHub](https://github.com/gurrambhaskar25/BreastCancerPrediction/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+PROBLEM STATEMENT
+The aim of this project is to diagnose patients with breast cancer by analysing the data of patients and
+classifying them into two categories, having diagnosis results as
+1. Benign (B)
+2. Malignant (M)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+LIBRARIES USED
+1. NUMPY - The fundamental package for scientific computing in python
+2. PANDAS – An open source BSD-licenced library providing high-performance, easy-to-use
+data structures and data analysis tools for python programming language
+3. SKLEARN.MODEL_SELECTION –
+ Split arrays or matrices into random train and test subsets  Selecting optimal features
+4. MATPLOTLIB.PYPLOT – Provides a MATLAB-like plotting framework
+5. SEABORN – It is a data visualisation library based on matplotlib. It provides high – level
+interface for drawing attractive and informative statistical graphics. 6. SKLEARN.METRICS
+ Accuracy score : In multilabel classification, this function computes subset
+accuracy; the set of labels predicted for a sample must exactly match the
+corresponding set of labels in y
+ Confusion matrix : Compute confusion matrix to evaluate the accuracy of
+classification
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+-DETAILS OF DATA:
+The dataset was collected from Kaggle:
+https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
+No of rows : 569
+No of columns : 33
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+TASKS PERFORMED:
+1. Exploratory data analysis
+a) Visualization
+b) Mapping string to numeric data
+c) Checking for duplicate values
+d) Data Cleaning
+2. Questions asked on the dataset with answers
+a) What is the average area of a tumour of a person having cancer?
+b) How does the area of tumour impact diagnosis?
+c) How does radius impact diagnosis results?
+3. Feature Selection
+a) Using Feature Importance
+b) Using Correlation heatmap
+4. Normalising data
+5. Ensemble Machine Learning Modelling
+a) K Nearest Neighbors Classifier
+b) Random Forest Classifier
+c) Support Vector Classifier
+6. Accuracy Calculation
+7. Summary
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
+Conclusion :-
+In this way, I have performed data analysis and have checked the accuracy of 3 different classification algorithm
+namely KNN, Random Forest and SVM. We Got Best Accuracy 
 
 [Link](url) and ![Image](src)
 ```
